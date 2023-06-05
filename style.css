@@ -195,3 +195,13 @@ button{
     color: white;
     border: 2px solid white;
 }
+
+.footer{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    background-color:#1F2937;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
