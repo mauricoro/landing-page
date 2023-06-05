@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin:0px;
     font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    align-items: center;
 
 }
 
@@ -18,7 +19,7 @@ body{
     flex-direction: row;
     justify-content: center; 
     gap: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     
 }
 .middle{
@@ -84,12 +85,44 @@ ul{
     flex-direction: row;
     
 }
+
  
 .info{
-    width: 400px;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.general{
+    font-size:36px;
+    font-weight: 700;
+    color:#1F2937;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.images li{
+    text-align:center; 
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+.images img{
+    width: 200px;
+    display: flex;
+    gap: 5px;
 }
 
 img{
+    border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 
